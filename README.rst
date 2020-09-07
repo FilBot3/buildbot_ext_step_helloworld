@@ -24,7 +24,8 @@ Setup
 
 Install the dependencies and then the package.
 
-::
+.. code:: bash
+
     poetry install
 
 Usage
