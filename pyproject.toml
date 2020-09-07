@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "buildbot_ext_step_helloworld"
+version = "0.1.0"
+description = "Buildbot BuildStep Extension - HelloWorld"
+authors = ["Phillip Dudley <Predatorian3@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+buildbot = {extras = ["bundle"], version = "^2.8.4"}
+service_identity = "^18.1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pylint = "^2.6.0"
+pycodestyle = "^2.6.0"
+autopep8 = "^1.5.4"
+yamllint = "^1.24.2"
+jsonlint = "^0.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
