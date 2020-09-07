@@ -16,7 +16,7 @@ Operating System's `echo` function to say `Hello, World!`.
 Requirements
 ============
 
-* Poetry, https://python-poetry.com
+* Poetry, https://python-poetry.org
 * Python 3.8 or newer
 
 Setup
